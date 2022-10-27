@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.brandLogo {
+  margin: 3rem;
+  display: inline;
+  max-width: 10rem;
+}
+
+header {
+  margin: 0rem 2rem 2rem 2rem;
+  height: 95vh;
+  background-image: url(imgs/markus-spiske-i5tesTFPBjw-unsplash.jpg);
+  background-size: cover;
+  background-position: 65% 35%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  border-radius: 0 0 9px 9px;
+  border-right: solid 2px black;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black;
+  display: grid;
+}
+
+.imgOpacity {
+  background-color: rgba (0 0 0 0.4);
+}
+
+img {
+  max-width: 100%;
+}
+
+#intro {
+  display: inline-block;
+}
+.intro__cta {
+  display: inline-block;
+  max-width: 20%;
+}
+
+.nav__link {
+  display: inline-block;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav__link:visited {
+  color: white;
+}
+
+.nav__link:hover {
+  font-weight: 900;
+  opacity: 50%;
+}
+
+.nav__link:focus {
+  font-weight: 900;
+  opacity: 50%;
+}
+
+.display-2 {
+  color: white;
+  font-size: 3.6rem;
+}
