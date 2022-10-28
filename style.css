@@ -31,6 +31,9 @@ img {
   max-width: 100%;
 }
 
+.menu {
+  background: rgba(255, 255, 255, 0.1);
+}
 .nav__link {
   color: #fff;
   list-style-type: none;
