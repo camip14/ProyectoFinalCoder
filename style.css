@@ -2,16 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
   font-family: "SF Pro Display", sans-serif;
 }
 
 .brandLogo {
   margin: 3rem;
-  display: inline;
-  max-width: 10rem;
 }
 
 header {
@@ -26,7 +21,6 @@ header {
   border-right: solid 2px black;
   border-left: solid 2px black;
   border-bottom: solid 2px black;
-  display: grid;
 }
 
 .imgOpacity {
@@ -37,17 +31,8 @@ img {
   max-width: 100%;
 }
 
-#intro {
-  display: inline-block;
-}
-.intro__cta {
-  display: inline-block;
-  max-width: 20%;
-}
-
 .nav__link {
-  display: inline-block;
-  color: white;
+  color: #fff;
   list-style-type: none;
   text-decoration: none;
   margin-right: 30px;

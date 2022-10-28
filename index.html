@@ -21,58 +21,74 @@
   </head>
   <body>
     <header>
-      <div class="headerimgOpacity"></div>
-      <div></div>
-      <a href="index.html">
-        <img
-          class="brandLogo"
-          src="imgs/LogoTraleo.svg"
-          alt="Logo de la marca"
-        />
-      </a>
-      <nav>
-        <!-- Menu -->
-        <ul class="nav__list">
-          <li class="nav__link">
-            <a href="pages/comerciantes.html">Comerciantes</a>
-          </li>
-          <li class="nav__link">
-            <a href="pages/consumidores.html">Consumidores</a>
-          </li>
-          <li class="nav__link">
-            <a href="pages/donaciones.html">Donaciones</a>
-          </li>
-          <li class="nav__link">
-            <a href="pages/funcionalidades.html">Funcionalidades</a>
-          </li>
-          <li class="nav__link">
-            <a href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
-          </li>
-        </ul>
-        <div id="intro">
-          <!-- Titulo -->
-          <h1 class="display-2">
-            Juntos podemos frenar el desperdicio de alimentos
-          </h1>
-          <!-- Subtitulos -->
-          <p class="intro__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-            reprehenderit rerum sed pariatur excepturi nisi numquam et facere
-            ducimus ut recusandae commodi expedita.
-          </p>
-          <!-- CTA descargas -->
-          <div class="intro__cta">
-            <a href="#"> <img src="imgs/Download-appStore.png" alt="" /> </a>
-            <a href="#"> <img src="imgs/Download-GooglePlay.png" alt="" /> </a>
+      <div class="headerimgOpacity">
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="index.html">
+              <img
+                class="brandLogo col-lg-4 col-sm-6"
+                src="imgs/LogoTraleo.svg"
+                alt="Logo de la marca"
+            /></a>
+            <ul class="nav">
+              <li class="navi-item">
+                <a href="pages/comerciantes.html">Comerciantes</a>
+              </li>
+              <li class="nav__link">
+                <a href="pages/consumidores.html">Consumidores</a>
+              </li>
+              <li class="nav__link">
+                <a href="pages/donaciones.html">Donaciones</a>
+              </li>
+              <li class="nav__link">
+                <a href="pages/funcionalidades.html">Funcionalidades</a>
+              </li>
+              <li class="nav__link">
+                <a href="pages/preguntasFrecuentes.html"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+            </ul>
           </div>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Menu -->
+      </div>
+      <nav class="row">
+        <!-- Titulo -->
+        <h1 class="display-2 col-sm-6">
+          Juntos podemos frenar el desperdicio de alimentos
+        </h1>
+        <!-- Subtitulos -->
+        <div>
+          <p class="intro__text col-lg-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            reprehenderit rerum sed pariatur excepturi nisi numquam et facer.
+          </p>
+        </div>
+        <!-- CTA descargas -->
+        <div class="col-lg-2">
+          <a href="#">
+            <img src="imgs/Download-appStore.png" alt="" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-lg-2">
+          <a href="#">
+            <img src="imgs/Download-GooglePlay.png" alt="" />
+          </a>
         </div>
       </nav>
     </header>
     <main>
       <!-- seccion1 -->
+
       <section>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg3"></div>
+        </div>
         <img
-          class="intro__img"
+          class="img-fluid"
           src="imgs/nylos-0jgvok8mIVw-unsplash.jpg"
           alt=""
         />
@@ -108,20 +124,22 @@
     </main>
     <!-- footer -->
     <footer>
-      <div class="footer__section">
-        <h2 class="footer__section--title">Footer Titulo1</h2>
-        <p class="footer__section--text">lorem titulo 1</p>
-        <button class="footer__section--CTA">CTA1</button>
-      </div>
-      <div class="footer__section">
-        <h2 class="footer__section--title">Footer Titulo2</h2>
-        <p class="footer__section--text">lorem titulo 1</p>
-        <button class="footer__section--CTA">CTA1</button>
-      </div>
-      <div class="footer__section">
-        <h2 class="footer__section--title">Footer Titulo3</h2>
-        <p class="footer__section--text">lorem titulo 1</p>
-        <button class="footer__section--CTA">CTA1</button>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <h4>Mas info?</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <a href="">Contactanos</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <h4>Mas info?</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <a href="">Contactanos</a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <h4>Mas info?</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <a href="">Contactanos</a>
+        </div>
       </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
